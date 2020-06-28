@@ -202,3 +202,127 @@
 	align-items: center;
 	font-size: 5rem;
 }
+
+@media (max-width: 960px){
+	#section-one {
+	  display: flex;
+	  flex-wrap: wrap;
+	  justify-content: center;
+	  align-items: flex-start;
+	}
+
+	#section-one article {
+		width: 100%;
+		margin-bottom: 1.5rem;
+	}
+
+	#section-one aside {
+		flex: 1;
+	}
+
+	#section-one > aside > ul.others-articles-list article {
+		max-width: 70%;
+	}
+
+	#section-one > aside > ul.others-articles-list article img {
+		margin-bottom: 1rem;
+		height: 220px;
+		max-width: 70%;
+	}
+
+	.article-pub {
+		display: none;
+	}
+}
+
+@media (max-width: 860px){
+	#section-one > article > h1 {
+		font-size: 2rem;
+	}
+
+	.sm-btn-group > a:nth-of-type(1) {
+		display: none;
+	}
+
+	#section-one > aside > ul.others-articles-list article img {
+		margin-bottom: 1rem;
+		height: 190px;
+		max-width: 60%;
+	}
+}
+
+@media (max-width: 660px){
+	#section-one {
+	  display: block;
+	}
+
+	.sm-btn-group > a {
+		display: none;
+	}
+
+	#section-one > article > .breadcrumb > ul li {
+		font-size: 0.8rem;
+	}
+
+	#section-one > article > .breadcrumb > ul li i {
+		margin: 0 0.6rem;
+	}
+
+	#section-one > article > h1 {
+		font-size: 1.7rem;
+	}
+
+	#comments .comments-wrapper > .user img {
+		width: 60px;
+		height: 60px;
+		margin: 0 1.3rem;
+	}
+
+	#comments .comments-wrapper > .user p {
+		font-size: 1rem;
+		max-width: 100%;
+	}
+	
+	#section-one aside {
+		margin-bottom: 1.5rem;
+	}
+
+	#section-one > aside > ul.others-articles-list article img {
+		margin-bottom: 1rem;
+		height: 180px;
+		max-width: 50%;
+	}
+
+	#section-one .genres > .genres-list {
+		width: 100%;
+	}
+
+}
+
+@media (max-width: 480px){
+	#section-one > article > .breadcrumb {
+		display: none;
+	}
+
+	#section-one > article > h1 {
+		font-size: 1.4rem;
+	}
+
+	#section-one > aside > ul.others-articles-list article {
+		max-width: 100%;
+	}
+
+	#section-one > aside > ul.others-articles-list article img {
+		margin-bottom: 1rem;
+		height: 180px;
+		max-width: 70%;
+	}
+}
+
+@media (max-width: 360px){
+	#section-one > aside > ul.others-articles-list article img {
+		margin-bottom: 1rem;
+		height: 150px;
+		max-width: 80%;
+	}
+}

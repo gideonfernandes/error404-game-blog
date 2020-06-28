@@ -192,7 +192,7 @@ nav#main-nav ul li a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 12px 0;
+  padding: 12px 10px;
 }
 
 .sub-nav > div > form label {
@@ -251,7 +251,7 @@ footer .footer-wrapper .social-icons a:hover {
   color: white;
 }
 
-footer .footer-wrapper > p {
+footer .container > p {
   margin-top: 0.8rem;
 }
 
@@ -265,4 +265,104 @@ footer .footer-wrapper > a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 1080px){
+  .container {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 960px) {
+  nav#main-nav .social-icons {
+    display: none;
+  }
+
+  .sub-nav > div > form input {
+    width: 220px;
+    padding-left: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .lead {
+    font-size: 1rem;
+    margin-bottom: 1.1rem;
+    line-height: 1.5rem;
+  }
+
+  nav#main-nav > .container {
+    flex-direction: column;
+  }
+
+  nav#main-nav {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  nav#main-nav ul li {
+    margin: 0.8rem 8px 1.2rem 8px;
+  }
+
+  .sub-nav > div > form input {
+    width: 300px;
+  }
+
+  .sub-nav > div {
+    justify-content: center;
+  }
+
+  .sub-nav > div > form:first-child {
+    display: none;
+  }
+}
+
+@media (max-width: 560px) {
+  nav#main-nav ul li {
+    margin: 0.8rem 9px 1rem 9px;
+    font-size: 0.85rem;
+  }
+
+  .sub-nav > div > form input {
+    width: 230px;
+  }
+
+  footer .footer-wrapper > img {
+    display: none;
+  }
+
+  footer .container > p {
+    margin-top: 1.2rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .sm-btn {
+    padding: 0.2rem 0.7rem;
+    font-size: 0.7rem !important;
+  }
+
+  nav#main-nav ul {
+    flex-direction: column;
+  }
+
+  nav#main-nav ul li {
+    margin: 0.5rem 0 0.5rem 0;
+    font-size: 1rem;
+  }
+
+    nav#main-nav ul li:last-child {
+      margin-bottom: 1.2rem;
+    }
+
+  .sub-nav > div > form input {
+    width: 190px;
+  }
+}
+
+@media (max-width: 360px) {
+  .sub-nav > div > form input {
+    width: 160px;
+  }
 }
