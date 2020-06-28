@@ -134,7 +134,7 @@ nav#main-nav ul li a {
   grid-template-rows: repeat(3, 1fr);
   grid-gap: 1rem;
   align-items: flex-start;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 #section-two > aside {
