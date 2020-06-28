@@ -15,10 +15,11 @@
 	padding: 1rem;
 }
 
-#section-one article > h1 {
+#section-one article > a > h1 {
 	font-weight: 300;
 	font-size: 2rem;
 	margin-bottom: 1rem;
+	color: #333;
 }
 
 #section-one article > img {
