@@ -20,15 +20,6 @@
   margin-bottom: 1.7rem;
 }
 
-.section-title {
-  font-size: 2rem;
-  display: block;
-  text-align: center;
-  padding-bottom: 0.5rem;
-  font-weight: 300;
-  text-transform: uppercase;
-}
-
 .btn-main, .btn-light, .btn-dark {
   display: inline-block;
   border: 0;
@@ -47,10 +38,49 @@
   background-color: #333;
 }
 
-button[class^='btn-']:hover,
-a[class^='btn-']:hover,
-input[class^='btn-']:hover {
-  background-color: #ffbc00;
+.sm-btn {
+  display: inline-block;
+  border: 0;
+  padding: 0.3rem 0.8rem;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in;
+  border-radius: 6px;
+  font-size: 0.9rem !important;
+  color: white;
+}
+
+.sm-btn:hover {
+  opacity: 0.9;
+}
+
+.author-name {
+  background-color: #333;
+}
+
+.genres-action {
+  background-color: var(--primary-color);
+}
+
+.genres-adventure {
+  background-color: green;
+}
+
+.genres-rpg {
+  background-color: purple;
+}
+
+.genres-speed {
+  background-color: coral;
+}
+
+.genres-sports {
+  color: white;
+  background-color: steelblue;
+}
+
+.article-time {
+  color: white;
+  background-color: green;
 }
 
 .my-1 {
@@ -85,4 +115,8 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+img {
+  max-width: 100%;
 }
