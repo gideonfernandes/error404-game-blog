@@ -1,0 +1,18 @@
+#main-audience {
+	color: white;
+	background-color: #333;
+}
+
+#main-audience article {
+	color: #333;
+	background-color: white;
+	padding: 1.5rem;
+	line-height: 1.5;
+}
+
+#main-audience article > h1 {
+	font-weight: 300;
+	font-size: 2.3rem;
+	margin-bottom: 0.7rem;
+	color: var(--primary-color);
+}
